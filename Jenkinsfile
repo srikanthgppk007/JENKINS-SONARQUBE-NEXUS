@@ -56,7 +56,7 @@ pipeline{
                            nexusVersion: 'nexus3', 
                            protocol: 'http', 
                            repository: 'riyaz-repo', 
-                           version: '1.0-SNAPSHOT'
+                           version: '3.8.9'
                } 
            }
         }
