@@ -60,6 +60,16 @@ pipeline{
                } 
            }
         }
+        stage('docker build'){
+            
+            steps{
+                
+                script{
+                    
+                   sh 'docker build -t srikanthgppk007/srikanth-java .'
+                }
+            }
+        }
         
     }
 }
