@@ -65,7 +65,7 @@ pipeline{
             steps{
                 
                 script{
-                    
+                    Docker= tool name: 'docker ', type: 'dockerTool'
                    sh 'docker build -t srikanthgppk007/srikanth-java .'
                 }
             }
