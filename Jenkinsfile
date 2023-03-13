@@ -56,7 +56,7 @@ pipeline{
                            nexusVersion: 'nexus3', 
                            protocol: 'http', 
                            repository: 'srikanth-repo'
-                           version: '4.05
+                           version: '4.05'
                } 
            }
         }
