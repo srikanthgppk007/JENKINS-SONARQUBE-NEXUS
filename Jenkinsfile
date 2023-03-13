@@ -44,19 +44,19 @@ pipeline{
                     
                    nexusArtifactUploader artifacts: [
                        [
-                           artifactId: 'riyaz', 
+                           artifactId: 'srikanth', 
                            classifier: '', 
-                           file: 'target/riyaz-1.0-SNAPSHOT.jar', 
+                           file: 'target/srikanth-4.05.jar', 
                            type: 'jar'
                            ]
                            ], 
                            credentialsId: 'nexus-credentials', 
-                           groupId: 'riyaz', 
+                           groupId: 'com', 
                            nexusUrl: '13.233.118.93:8081/', 
                            nexusVersion: 'nexus3', 
                            protocol: 'http', 
-                           repository: 'riyaz-repo', 
-                           version: '3.8.9'
+                           repository: 'srikanth
+                           version: '4.05
                } 
            }
         }
